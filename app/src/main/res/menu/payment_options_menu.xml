@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/filter_menu_icon"
+        android:checkableBehavior="single"
+        android:icon="@drawable/ic_filter"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        tools:targetApi="o">
+        <menu>
+            <item
+                android:id="@+id/filter_menu_pending"
+                android:title="@string/pending" />
+            <item
+                android:id="@+id/filter_menu_canceled"
+                android:title="@string/canceled" />
+        </menu>
+    </item>
+
+</menu>
